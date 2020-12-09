@@ -1,0 +1,98 @@
+//====================================================================================================
+footer{
+	border-top: 1px solid #9C69E2;
+}
+.footer-body {
+	padding: 100px 0 50px 0;
+}
+.footer-section {
+	@include flexbox();
+	justify-content: space-between;
+	align-items: center;
+	padding: 0px 0px 100px 0px;
+	&:last-child{
+		padding: 0px 0px 0px 0px;
+	}
+  &__heading-box {
+  }
+  &__button-box {
+		@include flexbox();
+  }
+  &__info-box {
+		&:last-child{
+			
+		}
+	}
+}
+.align-section{
+	align-items: start;
+}
+.footer-heading{
+	padding: 0px 0px 20px 0px;
+}
+.flex-row{
+	flex-direction: row;
+}
+.flex-2{
+	flex: 2;
+}
+.flex-1{
+	flex: 1;
+}
+.info-box {
+	@include flexbox();
+  &__logo-box {
+		@include flexbox();
+		align-items: center;
+		padding: 0px 0px 65px 0px;
+  }
+  &__logo {
+		padding: 0px 20px 0px 0px;
+  }
+  &__main-heading {
+		font-size: 1.4rem;
+  }
+  &__text--min-height {
+		font-size: 1rem;
+		line-height: 28px;
+		padding: 0px 0px 10px 0px;
+		&:last-child{
+			padding: 0;
+		}
+  }
+  &__heading {
+		font-size: 1rem;
+		padding: 0px 0px 40px 0px;
+	}
+	&__location-box{
+		@include flexbox();
+		flex-direction: column;
+	}
+  &__text {
+		font-size: 1rem;
+		padding: 0px 0px 20px 0px;
+		&:last-child{
+			padding: 0;
+		}
+  }
+  &__social-box {
+  }
+}
+.margin-ingfo-box{
+	position: relative;
+	bottom: 13px;
+}
+.social-icons {
+	padding: 0px 0px 0px 15px;
+	&:first-child{
+		padding: 0;
+	}
+}
+.rights-box {
+  &__rights-text {
+		font-size: 0.8rem;
+		line-height: 22px;
+  }
+}
+
+//====================================================================================================
